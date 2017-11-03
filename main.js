@@ -34,4 +34,4 @@ $(function () {
     $('nav li').removeClass("active");
     $('.contact').addClass("active");
   });
-})
+});
