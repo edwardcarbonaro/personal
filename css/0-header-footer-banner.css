@@ -162,7 +162,7 @@ footer.active {
 @media screen and (min-width: 726px) {
 
   header nav {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
   }
 

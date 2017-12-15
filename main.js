@@ -6,6 +6,13 @@ $(function () {
     $('nav li').removeClass("active");
     $('.home').addClass("active");
   });
+  
+  $('.aboutme').click(function () {
+    $('.section').toggle(false);
+    $('#aboutme').toggle(true);
+    $('nav li').removeClass("active");
+    $('.aboutme').addClass("active");
+  });
 
   $('.home').click(function (event) {
     $('.section').toggle(false);

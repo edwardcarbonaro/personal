@@ -7,10 +7,11 @@
     <link href="css/2-resume.css" rel="stylesheet" type="text/css">
     <link href="css/3-portfolio.css" rel="stylesheet" type="text/css">
     <link href="css/4-contact.css" rel="stylesheet" type="text/css">
-    <!-- <link href="vendor/hover-min.css" rel="stylesheet" type="text/css"> -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link href="css/5-aboutme.css" rel="stylesheet" type="text/css">
+    <link href="vendor/hover-min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <script src="vendor/jquery-2.1.3.min.js"></script>
+    <script src="vendor/jquery-ui.min.js"></script>
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
@@ -25,6 +26,7 @@
           <h1 class="logo">Edward Carbonaro</h1>
           <ul class="group">
             <li class="home active">Home</li>
+            <li class="aboutme">About Me</li>
             <li class="resume">Resume</li>
             <li class="portfolio">Portfolio</li>
             <li class="contact">Contact</li>
@@ -46,17 +48,40 @@
           <section class="bottom group">
 
             <section class="pic">
-              <img src="images/me.png" height="230px" />
-            </section>
+              <img src="images/me.png">
+            </section>    
+        
 
             <section class="bio">
-              <b>Hello, and welcome to my website!</b> <br><br>
-              My name is Edward Carbonaro and I am a senior at the New Jersey Institute of Technology. I am expecting to graduate in Decemeber 2017 with a Bachelor of Science in Information Technology.<br><br>
-			  While pursuing my degree, I choose to specialize in web applications which allowed me to gain experience using a variety of software. I have experience using the following; Java, Python, HTML, CSS, JavaScript,jQuery,AngularJS, PHP, MySQL, and Drupal
-            </section>
+              <p>
+              <b>Hello and welcome to my website!</b> <br><br>
+              My name is Edward Carbonaro and I am a senior at the New Jersey Institute of Technology. I expect to graduate in Decemeber 2017 with a Bachelor of Science in Information Technology specializing in web                                 applications.</p>
+              
+                
 
+           
+                
+                
+            </section>
+            
 
           </section>
+
+        </section>
+        
+        <section id="aboutme" class="section inactive">
+          <div class="banner-background">
+            <div class="banner">
+              <h1>About Me</h1>
+            </div>
+          </div>
+        <section class="bottom group">
+          <div id="aboutme">
+              <p> I will begin by telling a little bit about myself. I am originally from Staten Island, NY, but I moved to New Jersey when I was seven and I have been here ever since. After completing high school I went to Raritan Valley Community College in Branchburg, NJ because I wasn't really sure what I wanted to do with my life. Initially I was taking classes for a respitory therapy program, then I switched to nursing, and I even thought about becoming a corrections officer. I don't remember exactly when but something just clicked in my mind and I realized I spend all day on my computer, I'm intelligent, I think logically, why don't I just go into the technology field? Afterwards I began taking IT courses eventually finishing my B.S. in IT from NJIT and I couldn't be happier with my decision.</p>
+              
+             <p> People who know me best would describe me as shy and mellow with a good sense of humor. My hobbies include reading, watching movies, practicing piano/guitar, or playing strategy games. Overall I consider myself a pretty well-rounded individual. I enjoy light exercise like jogging and calisthenics to counter the fact that I will spend all day sitting on my computer. I also love learning about history in addition to technology.
+          </div>
+        </section>
 
         </section>
 
@@ -91,11 +116,15 @@
           <section class="bottom">
 
 			
-			<a href="https://web.njit.edu/~ejc23/download/it201/assignment2/registration.html" target="_blank" style="text-decoration:underline;"> Link 1 </a> : A webpage that allows the user to register to a database.
-			<br><br>
-			<a href="https://web.njit.edu/~ejc23/download/it201/assignment2/grades.html" target="_blank" style="text-decoration:underline;"> Link 2 </a> : A webpage that allows the user to input a registered user's grades into the           database.
+      <a href="https://is219carbonaro-p2.herokuapp.com/index.html" target="_blank" style="text-decoration:underline;"> Link 1 </a> : A webpage hosted on heroku that uses JavaScript and JSON to present an image gallery               (Spring 2017) <a href="https://github.com/edwardcarbonaro/is219carbonaro-p2" target="_blank" style="text-decoration:underline;"> Code on GitHub </a>
+      <br><br>      
+      <a href="https://is219carbonaro-p3.herokuapp.com/index.html" target="_blank" style="text-decoration:underline;"> Link 2 </a> : A webpage hosted on heroku that uses AngularJS to loop through movie posters and track user                ratings (Spring 2017) <a href="https://github.com/edwardcarbonaro/is219carbonaro-p3" target="_blank" style="text-decoration:underline;"> Code on GitHub </a>
       <br><br>
-      <a href="https://is219carbonaro-p3.herokuapp.com/index.html" target="_blank" style="text-decoration:underline;"> Link 3 </a> : A webpage hosted on heroku that uses AngularJS to loop through movie posters and track user                ratings
+      <a href="https://web.njit.edu/~ejc23/download/is218/project1/is218_project1/form.php" target="_blank" style="text-decoration:underline;"> Link 3 </a> : A To-Do-List Web Application (Fall 2017)
+      <a href="https://github.com/edwardcarbonaro/is218_project1" target="_blank" style="text-decoration:underline;"> Code on GitHub </a>
+      <br><br>
+      <span><i> Presenting in Trenton at the Administrative Office of the Courts for my NJIT Capstone Project </i> </span>
+      <img src="images/trenton_presentation.jpg" alt="Trenton Presentation" style="padding-top:10px;">  
           </section>
 
         </section>
@@ -109,9 +138,9 @@
           </div>
 
           <section class="bottom">
-            Github: &nbsp<a href="https://github.com/edwardcarbonaro" target="_blank">Edward Carbonaro</a><br><br>
-            LinkedIn: &nbsp<a href="https://www.linkedin.com/in/edward-carbonaro" target="_blank">Edward Carbonaro</a> <br><br>
-            E-mail: &nbsp<a href="mailto:edward.carbonaro122@gmail.com">edward.carbonaro12@gmail.com</a><br>
+            Github: &nbsp<a href="https://github.com/edwardcarbonaro" target="_blank" style="text-decoration:underline;">Edward Carbonaro</a><br><br>
+            LinkedIn: &nbsp<a href="https://www.linkedin.com/in/edward-carbonaro" target="_blank" style="text-decoration:underline;">Edward Carbonaro</a> <br><br>
+            E-mail: &nbsp<a href="mailto:edward.carbonaro122@gmail.com" style="text-decoration:underline;">edward.carbonaro12@gmail.com</a><br>
           </section>
 
           </section>
