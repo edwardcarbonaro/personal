@@ -100,9 +100,14 @@
   }
 
 div#aboutme{
-  max-width:600px;
+  max-width:800px;
   margin:auto;
 }
 div#aboutme p{
-  padding-top:10px;
+  padding-top:10px; 
+  float:right;
+  width:450px;
+  min-width:400px;
+  
+}
 }
